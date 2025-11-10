@@ -3,6 +3,9 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 from collections import Counter
+import cv2
+print("NumPy version:", np.__version__)
+print("OpenCV version:", cv2.__version__)
 
 # Load YOLOv8 model
 model = YOLO("best.pt")  # Replace with "yolov8n.pt" if needed
