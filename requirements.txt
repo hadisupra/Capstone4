@@ -1,6 +1,6 @@
-streamlit>=1.45.1
+streamlit>=1.32
 ultralytics>=8.3.226
 pillow>=11.1.0
 torch>=2.9.0
-numpy>=2.1.3
-opencv-python-headless>=4.8.0
+numpy>=1.24
+opencv-python-headless
