@@ -7,8 +7,8 @@ import cv2
 print("NumPy version:", np.__version__)
 print("OpenCV version:", cv2.__version__)
 
-# Load YOLOv8 model
-model = YOLO("best.pt")  # Replace with "yolov8n.pt" if needed
+# Load yoloV12 trained model 
+model = YOLO("best.pt")  # best model
 
 # Page setup
 st.set_page_config(page_title="Deep Learning YOLOv12 Vehicle Detection", layout="centered")
