@@ -40,11 +40,11 @@ if uploaded_file:
         st.write(f"🚗 **Cars Detected:** {car_count}")
         st.write(f"🚌 **Buses Detected:** {bus_count}")
 
-        # Full class breakdown
-        class_counts = Counter([names[int(cls)] for cls in detections])
-        st.markdown("### 🔍 Full Class Breakdown")
-        for label, count in class_counts.items():
-            st.write(f"- **{label}**: {count}")
+        # # Full class breakdown
+        # class_counts = Counter([names[int(cls)] for cls in detections])
+        # st.markdown("### 🔍 Full Class Breakdown")
+        # for label, count in class_counts.items():
+        #     st.write(f"- **{label}**: {count}")
 
         # Show annotated image
         st.markdown("### 🖼️ Detection Result")
